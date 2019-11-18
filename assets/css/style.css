@@ -1,9 +1,54 @@
-v/* Brittany Morris' Portfolio Site */
+/* Brittany Morris' Portfolio Site */
 * {
   box-sizing: border-box;
 }
-/* The navigation bar */
 
+/* The navigation bar */
+.navbar {
+  width: 100%;
+  padding: 0px 0px;
+  margin: 0 auto;
+  height: 80px;
+  position: fixed;
+}
+
+.navbar-toggler {
+}
+
+.navbar-brand {
+  color:#ffffff;
+  padding: 28px;
+  position: fixed;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  background-color: #a88e3a;
+  text-decoration: none;
+}
+
+
+.navbar-nav {
+
+  float:left;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  color: none;
+}
+
+/* Change background on mouse-over */
+.nav-link a:hover {
+  color: #a88e3a;
+}
+
+.container {
+  width: 960px;
+  padding: 0px 0px;
+  margin: 0 auto;
+}
+
+/* Content */
 body {
   padding: 0;
   margin: 0;
@@ -11,7 +56,6 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #777777;
-  background-image: url("../images/handmadepaper_@2X.png");
 }
 
 header {
@@ -23,41 +67,25 @@ h2 {
   font-size: 24px;
 }
 
-.navbar {
-  width: 100%;
-  padding: 0px 0px;
-  margin: 0 auto;
-  height: 80px;
-}
-
-
-.navbar-nav {
-  float: right;
-  padding: 600px;
-}
-
-
-/* Change background on mouse-over */
-.nav-link a:hover {
-  color: #3300CC;
-}
-
-.container {
-  width: 960px;
-  padding: 0px 0px;
-  margin: 0 auto;
-}
 .container2 {
   width: 960px;
   padding: 0px 0px;
   margin: 0 auto;
 }
 
+.jumbotron-fluid {
+  height: 350px;
+  background-image: url("../images/papyrus-dark.png");
+}
 
+.display-4{
+  padding-top: 100px;
+color: #ffffff;
+}
 
-
-
-
+.lead {
+color:#7d682f;
+}
 
 .display-4{
   text-align: center;
