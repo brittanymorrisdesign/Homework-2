@@ -42,6 +42,7 @@
   width: 960px;
   padding: 0px 0px;
   margin: 0 auto;
+  position: fixed'
 }
 
 /* Content */
@@ -69,10 +70,22 @@ h2 {
   margin: 0 auto;
 }
 
-.jumbotron-fluid {
-  height: 350px;
-  background-image: url("../images/papyrus-dark.png");
+.container3 {
+  width: 960px;
+  height: 200px
 }
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 219px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  float: left;
+]
 
 .display-4{
   padding-top: 100px;

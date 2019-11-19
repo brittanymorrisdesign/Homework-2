@@ -41,39 +41,27 @@
 
 
 
-
-  <!-- Contact Form -->
-  <div class="container3">
-      <form action="action_page.php">
-        <div class="row">
-          <div class="col-25">
-            <label for="fname">First Name</label>
-          </div>
-          <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          </div>
+  <body>
+    <!-- Contact Form -->
+    <div class="container-fluid">
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email">
         </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="lname">Email</label>
-          </div>
-          <div class="col-75">
-            <input type="text" id="lname" name="lastname" placeholder="Your email address..">
-          </div>
-          <div class="col-25">
-            <label for="subject">Subject</label>
-          </div>
-          <div class="col-75">
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd">
         </div>
-        <div class="row">
-          <input type="submit" value="Submit">
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
         </div>
+        <button type="submit" class="btn btn-default">Submit</button>
       </form>
     </div>
-    <!-- Contact Form -->
-   
+  </body>
+  <!-- Contact Form -->
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -84,7 +72,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
- </div>
+  </div>
 
 </body>
 
