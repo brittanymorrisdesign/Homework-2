@@ -16,7 +16,7 @@
 }
 
 .navbar-brand {
-  color:#ffffff;
+  color: #ffffff;
   padding: 28px;
   position: fixed;
   margin: 0;
@@ -27,19 +27,15 @@
 }
 
 
-.navbar-nav {
-
-  float:left;
-}
-
 .navbar-brand:hover {
   text-decoration: none;
   color: none;
 }
 
 /* Change background on mouse-over */
-.nav-link a:hover {
+.navbar-nav:hover {
   color: #a88e3a;
+  float: left;
 }
 
 .container {
@@ -56,15 +52,6 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #777777;
-}
-
-header {
-  background: #ffffff;
-  height: 12%;
-}
-
-h2 {
-  font-size: 24px;
 }
 
 .container2 {
@@ -85,13 +72,10 @@ color: #ffffff;
 
 .lead {
 color:#7d682f;
+text-align: center;
 }
 
 .display-4{
-  text-align: center;
-}
-
-.lead{
   text-align: center;
 }
 
