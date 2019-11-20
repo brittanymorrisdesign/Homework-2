@@ -6,7 +6,6 @@
 /* Form */
 .form-group {
   color: #777777;
-  height: 85px;
 }
 
 .checkbox {
@@ -19,7 +18,7 @@
 }
 .container-fluid {
   width: 960px;
-  padding: 0px 0px;
- padding-top; 300px;
+  padding-top: 130px;
+  padding-right: 10px;
 }
 
