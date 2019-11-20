@@ -2,18 +2,16 @@
 * {
   box-sizing: border-box;
 }
+ 
+.col-sm-3 {
 
-.container-fluid {
-padding-left: 900px;
+  align-content: center;
 }
 
-div.gallery {
-  margin: 5px;
-  float: left;
-  width: 219px;
+.row {
+padding: 0px 0px 30px;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
+.row-2 {
+  padding: 0px 0px 30px;
+  }
