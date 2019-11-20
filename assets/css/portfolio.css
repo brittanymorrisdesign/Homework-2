@@ -9,16 +9,19 @@
   margin: 0 auto;
 }
 
-.container-fluid-3 {
-  width: 960px; 
-  padding: 28px 0px 200px;
-  margin: 0 auto;
-  height: 130px;
-  padding-top: 130px;
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
 }
 
-.container-fluid-4 {
-  width: 960px; 
-  height: 130px;
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
 }
-
