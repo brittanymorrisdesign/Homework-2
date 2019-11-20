@@ -18,7 +18,8 @@
   color: white;
 }
 .container-fluid {
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 150px;
+  width: 960px;
+  padding: 0px 0px;
+ padding-top; 300px;
 }
+
