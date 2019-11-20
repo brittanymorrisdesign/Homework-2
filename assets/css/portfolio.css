@@ -3,6 +3,9 @@
   box-sizing: border-box;
 }
 
+.container-fluid {
+padding-left: 900px;
+}
 
 div.gallery {
   margin: 5px;
