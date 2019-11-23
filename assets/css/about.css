@@ -4,13 +4,7 @@
 }
 
 /* About Me */
-.container-fluid {
-    width: 960px;
-    padding-top: 130px;
-
-  }
-  
-  .bio-image {
-    float: left;
-    padding-right: 20px;
-  }
+.card {
+padding-top: 100px;
+    }
+    

@@ -9,32 +9,20 @@
   padding: 0px 0px;
   margin: 0 auto;
   height: 80px;
-  position: fixed;
 }
-
-.navbar-toggler {}
 
 .navbar-brand {
   color: #ffffff;
-  padding: 28px;
-  position: fixed;
-  margin: 0;
+  padding: 15px;
   text-align: center;
   font-size: 30px;
   background-color: #a88e3a;
   text-decoration: none;
 }
 
-
 .navbar-brand:hover {
   text-decoration: none;
   color: none;
-}
-
-/* Change background on mouse-over */
-.navbar-nav:hover {
-  color: #a88e3a;
-  float: left;
 }
 
 .container {
@@ -67,12 +55,12 @@ body {
 }
 
 .jumbotron-fluid {
-  height: 400px;
+  height: 300px;
   background-image: url("../images/papyrus-dark.png");
 }
 
 .display-4 {
-  padding-top: 130px;
+  padding-top: 40px;
   color: #ffffff;
   text-align: center;
 }
@@ -81,6 +69,16 @@ body {
   color: #7d682f;
   text-align: center;
 }
+
+.col-sm-8 {
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.card-body {
+  text-align: center
+}
+
 
 footer {
   position: fixed;
