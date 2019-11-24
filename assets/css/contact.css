@@ -31,9 +31,9 @@ input[type=submit] {
 }
 
 /* Style the container */
-.container {
+.container2 {
   border-radius: 5px;
-  padding: 20px;
+  padding: 80px;
 }
 
 /* Floating column for labels: 25% width */
@@ -68,7 +68,6 @@ padding: 20px;
     margin-top: 0;
   }
 }
-
 
 /* Socials */
 .fa {
